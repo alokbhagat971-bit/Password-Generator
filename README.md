@@ -1,16 +1,15 @@
-# Expense Tracker
+# Password Generator
 
-This is a basic expense tracker web app I built while learning frontend development. The idea was to create something simple but useful where I could track income and expenses and see the balance update in real time.
+This is a simple password generator web app I made when I was starting to learn JavaScript. It generates a random password based on the length selected using a slider.
 
 ---
 
 ## Features
 
-* Add income and expense entries
-* Delete any transaction
-* Shows current balance
-* Separately tracks total income and expenses
-* Displays a list of all transactions
+* Generate random passwords
+* Choose password length using a slider
+* Instant output on button click
+* Simple and clean UI
 
 ---
 
@@ -24,18 +23,15 @@ This is a basic expense tracker web app I built while learning frontend developm
 
 ## How it works
 
-You just enter a name and an amount.
-If the amount is positive, it gets added as income.
-If it's negative, it's treated as an expense.
-
-The app then updates the balance and shows everything in the list.
+You move the slider to select the length of the password.
+Then click the generate button, and it creates a random password of that length.
 
 ---
 
 ## Folder Structure
 
-```id="m4nq7s"
-expense-tracker/
+```id="x2p9dl"
+password_generator/
 │── index.html
 │── style.css
 │── script.js
@@ -45,22 +41,22 @@ expense-tracker/
 
 ## Why I built this
 
-I made this project when I was starting out with JavaScript to get better at things like:
+I built this project while learning the basics of JavaScript. It helped me understand:
 
 * DOM manipulation
-* Handling user input
-* Updating UI dynamically
+* Event handling
+* Generating random values
+* Working with user input
 
 ---
 
 ## Possible Improvements
 
-* Save data using local storage
-* Add charts for better visualization
-* Improve the UI
-* Make it mobile friendly
+* Add options for uppercase, lowercase, numbers, and symbols
+* Add copy to clipboard button
+* Show password strength
+* Improve UI
 
 ---
 
-That's it. Nothing fancy, just a small project from my early learning phase 
-
+Just a small project from my early practice days.
